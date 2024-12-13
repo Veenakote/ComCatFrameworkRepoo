@@ -20,4 +20,6 @@ public class EmailPage extends WebDriverUtility
 		return ComposeLink;
 	}
 	
+	@FindBy(name="find")
+	private WebElement ele3;
 }
