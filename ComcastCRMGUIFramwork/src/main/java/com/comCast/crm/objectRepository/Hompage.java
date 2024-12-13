@@ -61,9 +61,6 @@ public class Hompage extends WebDriverUtility
 		return wlib;
 	}
 
-
-
-
 	public WebElement getEmailLink() {
 		return emailLink;
 	}
