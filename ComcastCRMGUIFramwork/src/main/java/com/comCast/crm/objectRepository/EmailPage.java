@@ -14,12 +14,18 @@ public class EmailPage extends WebDriverUtility
 		//this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
-	@FindBy(name="Compose")
+	@FindBy(linkText ="Compose")
 	private WebElement ComposeLink;
 	public WebElement getComposeLink() {
 		return ComposeLink;
 	}
 	
+<<<<<<< HEAD
 	@FindBy(name="find")
 	private WebElement ele3;
+=======
+	@FindBy(id="search_text")
+	private WebElement ele2;
+	
+>>>>>>> branch 'master' of https://github.com/Veenakote/ComCatFrameworkRepoo.git
 }
