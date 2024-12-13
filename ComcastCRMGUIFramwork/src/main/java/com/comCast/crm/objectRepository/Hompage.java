@@ -54,8 +54,20 @@ public class Hompage extends WebDriverUtility
 	@FindBy(linkText="Vendors")
 	private WebElement vendorLink;
 	
+	@FindBy(linkText="Email")
+	private WebElement emailLink;
 	
-	
+	public WebDriverUtility getWlib() {
+		return wlib;
+	}
+
+	public WebElement getEmailLink() {
+		return emailLink;
+	}
+
+
+
+
 	public WebElement getDocumentLink() {
 		return documentLink;
 	}
